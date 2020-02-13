@@ -1,0 +1,15 @@
+{
+    "spec_dir": "koans",
+
+    "spec_files": [
+      "*.js"
+    ],
+
+    "helpers": [
+      "../lib/jasmine/underscore-jasmine.js"
+    ],
+
+    "stopSpecOnExpectationFailure": false,
+
+    "random": false
+  }
