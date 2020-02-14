@@ -102,7 +102,8 @@ describe("About Applying What We Have Learnt", function() {
     /* chain() together map(), flatten() and reduce() */
 
     expect(ingredientCount['mushrooms']).toBe(2);
-  });
+  }
+});
 
   /*********************************************************************************/
   /* UNCOMMENT FOR EXTRA CREDIT */
