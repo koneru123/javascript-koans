@@ -91,7 +91,6 @@ describe("About Applying What We Have Learnt", function() {
   it("should count the ingredient occurrence (functional)", function () {
     //var ingredientCount = { "{ingredient name}": 0 };
     const ingredientCount = function(arr) {
-      //let newObj = {};
       return products.map(element => element.ingredients).flat().reduce((newObj, element) => {
         if(!newObj[element]) {
           newObj[element] = 1;
